@@ -113,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
         );
       },
       separatorBuilder: (BuildContext context, int index) {
-        return const Divider();
+        return Divider(color: Colors.grey[300],);
       },
     );
   }
